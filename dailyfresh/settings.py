@@ -87,11 +87,7 @@ WSGI_APPLICATION = 'dailyfresh.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME':'dailyfresh',
-        'USER':'debian-sys-maint',
-        'PASSWORD':'0820lljxyh',
-        'HOST':'localhost',
-        'PORT':3306,
+        
     }
 }
 
@@ -144,10 +140,10 @@ EMAIL_HOST = 'smtp.163.com'
 EMAIL_PORT = 25
 
 # 发送邮件的邮箱
-EMAIL_HOST_USER = 'jvlunl@163.com'
+EMAIL_HOST_USER = ''
 
 # 客户端授权码
-EMAIL_HOST_PASSWORD = '0820lljxyh'
+EMAIL_HOST_PASSWORD = 'h'
 
 # 收件人看到的发件人
 EMAIL_FROM = '天天生鲜<jvlunl@163.com>'
